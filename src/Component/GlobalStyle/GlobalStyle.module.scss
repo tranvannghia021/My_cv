@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+:root {
+    --background-color-body: #525659;
+    --background-A4: #e7f3ff;
+    --color-icon: #0a84ff;
+    --color-text-title: #0a84ff;
+    --color-text-blur: #999;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// html {
+//     font-size: 100%;
+// }
+body {
+    font-family: 'Roboto', sans-serif;
+    // font-size: 1.6rem;
+    text-rendering: optimizeSpeed; // tối ưu hóa tốc độ tải data ra DOM
+    //line-height: 1.5;
+    background-color: var(--background-color-body);
+    display: flex;
+    justify-content: center;
+}
